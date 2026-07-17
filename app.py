@@ -15,7 +15,7 @@ import os
 # 또는 Streamlit 앱 실행 시 폰트 파일을 함께 배포해야 합니다.
 # 여기서는 NanumGothic이 설치되어 있다고 가정하고 진행합니다.
 # 로컬 환경에서 실행 시 `NanumGothic.ttf` 파일이 앱이 실행되는 디렉토리나 시스템 폰트 경로에 있어야 합니다.
-font_path = './NanumGothic.ttf' # Streamlit 앱과 같은 경로에 폰트 파일을 둔다고 가정
+font_path = 'NanumGothic-Regular.ttf' # Streamlit 앱과 같은 경로에 폰트 파일을 둔다고 가정
 
 # 폰트 파일 존재 여부 확인 및 추가
 if os.path.exists(font_path):
